@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Cartão virtual",
+    "icon": "credit-card"
+  },
+  {
+    "id": 2,
+    "title": "Transferir",
+    "icon": "corner-right-up"
+  },
+  {
+    "id": 3,
+    "title": "Depositar",
+    "icon": "corner-right-down"
+  },
+  {
+    "id": 4,
+    "title": "Bloquear cartão",
+    "icon": "unlock"
+  },
+  {
+    "id": 5,
+    "title": "Me ajuda",
+    "icon": "help-circle"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Me Ajuda",
+    "icon": "help-circle"
+  },
+  {
+    "id": 2,
+    "title": "Perfil",
+    "icon": "user"
+  },
+  {
+    "id": 3,
+    "title": "Configurar NuConta",
+    "icon": "database"
+  },
+  {
+    "id": 4,
+    "title": "Configurar Cartão",
+    "icon": "credit-card"
+  },
+  {
+    "id": 5,
+    "title": "Configurações do app",
+    "icon": "smartphone"
+  }
+]
