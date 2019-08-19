@@ -2,7 +2,8 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
   padding-horizontal: 16px;
-  padding-vertical: 25px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   align-items: center;
   justify-content: center;
 `;
