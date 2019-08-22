@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
-import { TouchableNativeFeedback } from 'react-native';
+import { TouchableNativeFeedback, Animated } from 'react-native';
 
-export const Container = styled.View`
+export const Container = styled(Animated.View)`
   width: 100%;
   height: 100px;
   margin-vertical: 16px;

@@ -14,9 +14,16 @@ import {
 } from './styles';
 import menuOptions from './Options.json';
 
-export default function Menu() {
+export default function Menu({ translateY }) {
   return (
-    <Container>
+    <Container
+      style={{
+        opacity: translateY.interpolate({
+          inputRange: [0, 150],
+          outputRange: [0, 1],
+        }),
+      }}
+    >
       <QRcode />
 
       <AccountInfo style={{ paddingBottom: 6 }}>

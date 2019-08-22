@@ -1,16 +1,18 @@
 import styled from 'styled-components/native';
+import { Animated } from 'react-native';
 
-export const Container = styled.View`
-  height: 90%;
+export const CardContainer = styled(Animated.View)`
+  height: 100%;
   width: 90%;
   background-color: #FFF;
   border-radius: 3px;
   overflow: hidden;
+  position: absolute;
+  top: 0;
 `;
 
 export const ContainerGroup = styled.View`
   height: 100%;
-  width: 90%;
   justify-content: space-between;
 `;
 
@@ -69,4 +71,7 @@ export const AvailableLimitGreen = styled.Text`
 
 export const AvailableAmount = styled.Text``;
 
-export const FooterMessage = styled.Text``;
+export const FooterMessage = styled.Text`
+  fontSize: 12px;
+  color: grey;
+`;

@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
-import { TouchableNativeFeedback } from 'react-native';
+import { TouchableNativeFeedback, Animated } from 'react-native';
 
-export const Container = styled.ScrollView.attrs({
+export const Container = styled(Animated.ScrollView).attrs({
   contentContainerStyle: {
     paddingTop: 12,
     paddingHorizontal: 30,
