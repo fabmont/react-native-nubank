@@ -4,6 +4,8 @@ A React Native clone of the Nubank mobile app bootstrapped with Expo.
 
 This mobile app was created for me to learn new techniques inside React/React-Native world such as Animations and styling.
 
+<img src="https://raw.githubusercontent.com/fabmont/react-native-nubank/master/gifmaker_20190822115110.gif" width="200">
+
 ## Steps to run this project:
 1. Clone the repo;
 2. Navigate to the project folder;
@@ -16,7 +18,7 @@ To create the app's components styles I've used *styled-components* dependency. 
 ## Final thoughts:
 This project has the goal to help me learning other concepts of React Native and I think that if it helps you too, it will be amazing.
 
-### **WARNING:** be sure that you have the Expo app installed on your smartphone.
+### **WARNING:** be sure you have the Expo app installed on your smartphone.
 ### PS: I've made it only debugging on a Xiaomi Mi A2 (5.99" inch display), so it might break when running on other devices.
 
 2019 - created by @fabmont
